@@ -1,0 +1,12 @@
+{
+  "manifest_version": 1,
+  "id": "vallee-des-totems-piano",
+  "name": "Piano de la Vallée",
+  "version": "1.0.0",
+  "author": "MJ",
+  "description": "Un piano de 10 notes pour l'énigme de la Salle 2.",
+  "action": {
+    "title": "Piano",
+    "url": "index.html"
+  }
+}

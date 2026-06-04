@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Piano de la Vallée</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #2c2c2c;
+            display: flex;
+            justify-content: center;
+        }
+
+        #piano-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            max-width: 600px;
+        }
+
+        .circle {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #777;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.2s;
+            user-select: none;
+        }
+
+        .circle:hover {
+            background-color: #aaa;
+        }
+
+        .circle:active {
+            background-color: #fff;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div id="piano-container">
+        <div class="circle" data-note="do">Do</div>
+        <div class="circle" data-note="re">Ré</div>
+        <div class="circle" data-note="mi">Mi</div>
+        <div class="circle" data-note="fa">Fa</div>
+        <div class="circle" data-note="sol">Sol</div>
+        <div class="circle" data-note="la">La</div>
+        <div class="circle" data-note="si">Si</div>
+        <div class="circle" data-note="do2">Do'</div>
+        <div class="circle" data-note="re2">Ré'</div>
+        <div class="circle" data-note="mi2">Mi'</div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
