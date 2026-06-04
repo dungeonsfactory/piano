@@ -1,12 +1,12 @@
 {
-  "name": "Piano de la Vallée",
+  "name": "Porte magique",
   "version": "1.0.0",
   "manifest_version": 1.01,
   "author": "Dungeons Factory",
-  "description": "Un piano de 10 notes pour l'énigme de la Salle 2.",
+  "description": "Une énigme musicale d'ouverture de porte magique",
   "icon": "https://raw.githubusercontent.com/dungeonsfactory/piano/main/icon.png",
   "action": {
-    "title": "Piano",
+    "title": "Porte magique",
     "icon": "https://raw.githubusercontent.com/dungeonsfactory/piano/main/icon.png",
     "popover": "https://dungeonsfactory.github.io/piano/index.html",
     "height": 300,
