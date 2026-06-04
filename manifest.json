@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "author": "MJ",
   "description": "Un piano de 10 notes pour l'énigme de la Salle 2.",
+  "icon": "icon.png",
   "action": {
     "title": "Piano",
     "url": "index.html"
