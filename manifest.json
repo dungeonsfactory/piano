@@ -1,13 +1,15 @@
 {
-  "manifest_version": 1,
-  "id": "vallee-des-totems-piano",
   "name": "Piano de la Vallée",
   "version": "1.0.0",
-  "author": "MJ",
+  "manifest_version": 1.01,
+  "author": "Dungeons Factory",
   "description": "Un piano de 10 notes pour l'énigme de la Salle 2.",
   "icon": "https://dungeonsfactory.github.io/piano/icon.png",
   "action": {
     "title": "Piano",
-    "url": "https://dungeonsfactory.github.io/piano/index.html"
+    "icon": "https://dungeonsfactory.github.io/piano/icon.png",
+    "popover": "https://dungeonsfactory.github.io/piano/index.html",
+    "height": 400,
+    "width": 600
   }
 }
