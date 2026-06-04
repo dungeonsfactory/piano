@@ -8,7 +8,7 @@
   "action": {
     "title": "Piano",
     "icon": "https://raw.githubusercontent.com/dungeonsfactory/piano/main/icon.png",
-    "popover": "https://raw.githubusercontent.com/dungeonsfactory/piano/index.html",
+    "popover": "https://dungeonsfactory.github.io/piano/index.html",
     "height": 400,
     "width": 600
   }
