@@ -9,7 +9,7 @@
     "title": "Piano",
     "icon": "https://raw.githubusercontent.com/dungeonsfactory/piano/main/icon.png",
     "popover": "https://dungeonsfactory.github.io/piano/index.html",
-    "height": 400,
+    "height": 300,
     "width": 600
   }
 }
