@@ -5,9 +5,9 @@
   "version": "1.0.0",
   "author": "MJ",
   "description": "Un piano de 10 notes pour l'énigme de la Salle 2.",
-  "icon": "icon.png",
+  "icon": "https://dungeonsfactory.github.io/piano/icon.png",
   "action": {
     "title": "Piano",
-    "url": "index.html"
+    "url": "https://dungeonsfactory.github.io/piano/index.html"
   }
 }
