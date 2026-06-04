@@ -6,30 +6,35 @@
     <style>
         body {
             margin: 0;
-            padding: 20px;
-            background-color: #2c2c2c;
+            padding: 0px;
+            background-image: url('fond.webp'); 
+            background-size: cover;           
+            background-position: center;     
+            background-repeat: no-repeat;     
             display: flex;
             justify-content: center;
+            align-items: center;              
+            height: 100vh;
+            overflow: hidden;
         }
-
+        
         #piano-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             gap: 15px;
-            max-width: 600px;
+            max-width: 400px; /* Ajusté selon ta demande */
         }
 
         .circle {
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background-color: #777;
+            background-color: rgba(119, 119, 119, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.3);
             display: flex;
             align-items: center;
             justify-content: center;
-            color: white;
-            font-weight: bold;
             cursor: pointer;
             transition: background 0.2s;
             user-select: none;
