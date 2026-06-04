@@ -4,11 +4,11 @@
   "manifest_version": 1.01,
   "author": "Dungeons Factory",
   "description": "Un piano de 10 notes pour l'énigme de la Salle 2.",
-  "icon": "https://dungeonsfactory.github.io/piano/icon.png",
+  "icon": "https://raw.githubusercontent.com/dungeonsfactory/piano/main/icon.png",
   "action": {
     "title": "Piano",
-    "icon": "https://dungeonsfactory.github.io/piano/icon.png",
-    "popover": "https://dungeonsfactory.github.io/piano/index.html",
+    "icon": "https://raw.githubusercontent.com/dungeonsfactory/piano/main/icon.png",
+    "popover": "https://raw.githubusercontent.com/dungeonsfactory/piano/index.html",
     "height": 400,
     "width": 600
   }
